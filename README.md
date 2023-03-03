@@ -6,7 +6,11 @@ Count Vehicles in video using YOLO for training and DeepSORT for tracking.
 Vehicles considered are cars, buses, trucks, and motorbikes.
 
 To run the counter and tracker execute the notebook yolo_DS_run_colab.ipynb
-This notebook exeecutes yolo_ds.py with the necessary parameters to get an output avi file that displays both real time tracking and the count of vehicles.
+This notebook executes yolo_ds.py with the necessary parameters to get an output avi file that displays both real time tracking and the count of vehicles.
+
+## Prerequisite
+
+Download yolo3 weights using wget https://pjreddie.com/media/files/yolov3.weights and add to yolo-coco directory.
 
 
 
